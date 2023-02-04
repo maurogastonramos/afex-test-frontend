@@ -1,0 +1,37 @@
+body {
+  background-color: #f2f2f2;
+}
+
+:root {
+  --main-blue: #136ae4;
+}
+
+.button-primary{
+  padding: 1rem 5rem;
+  border: none;
+  border-radius: 0.55rem;
+  background-color: var(--main-blue);
+  color: white;
+  box-shadow: 1px 2px 4px 1px rgba(133, 133, 133, 0.34);
+  -webkit-box-shadow: 1px 2px 4px 1px rgba(133, 133, 133, 0.34);
+  -moz-box-shadow: 1px 2px 4px 1px rgba(133, 133, 133, 0.34);
+  cursor: pointer;
+  font-weight: 700;
+  font-stretch: expanded;
+}
+.button-secondary{
+  padding: 1rem 5rem;
+  border: 1px solid var(--main-blue);
+  border-radius: 0.55rem;
+  color: var(--main-blue);
+  background-color: white;
+  box-shadow: 1px 2px 4px 1px rgba(133, 133, 133, 0.34);
+  -webkit-box-shadow: 1px 2px 4px 1px rgba(133, 133, 133, 0.34);
+  -moz-box-shadow: 1px 2px 4px 1px rgba(133, 133, 133, 0.34);
+  cursor: pointer;
+  font-weight: 700;
+  font-stretch: expanded;
+}
+.button-primary:hover, .button-secondary:hover{
+  opacity: 0.85;
+}
